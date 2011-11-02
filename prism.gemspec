@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
     "lib/prism/microformat/geo.rb",
     "lib/prism/microformat/hcalendar.rb",
     "lib/prism/microformat/hcard.rb",
+    "lib/prism/microformat/hrecipe.rb",
     "lib/prism/microformat/rellicense.rb",
     "lib/prism/microformat/reltag.rb",
     "lib/prism/microformat/votelinks.rb",
