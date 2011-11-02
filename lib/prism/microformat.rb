@@ -17,7 +17,9 @@ module Prism
         :votelinks  => Prism::Microformat::VoteLinks,
         :xfn        => Prism::Microformat::XFN,
         :xmdp       => Prism::Microformat::XMDP,
-        :xoxo       => Prism::Microformat::XOXO }
+        :xoxo       => Prism::Microformat::XOXO,
+        :hrecipe    => Prism::Microformat::HRecipe
+      }
     end
 
     def self.find(html, uformat = nil)
