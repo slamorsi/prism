@@ -46,7 +46,7 @@ module Prism
     case normalize(key)
       when :valueclass, :abbr, :uri, :url, :typevalue
         Prism::Pattern.map(key)
-      when :hcard, :geo, :rellicense, :reltag, :votelinks, :xfn, :xmdp, :xoxo, :adr
+      when :hcard, :geo, :rellicense, :reltag, :votelinks, :xfn, :xmdp, :xoxo, :adr, :hcalendar, :hrecipe
         Prism::Microformat.map(key)
       when :base
         Prism::POSH::Base

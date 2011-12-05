@@ -24,6 +24,7 @@ module Prism
 
     def self.find(html, uformat = nil)
       if uformat
+
         map(uformat).parse Prism.get(html)
       else
         find_all(html)

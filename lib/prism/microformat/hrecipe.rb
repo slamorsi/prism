@@ -7,6 +7,10 @@ module Prism
       
       name :hrecipe
 
+      search do |doc|
+        hrecipe = doc.css("#{name}")
+        hrecipe
+      end
       has_one :fn, :yield, :summary, :instructions, :published
       has_many :ingredient, :duration,  :author, :nutrition, :tag
 
